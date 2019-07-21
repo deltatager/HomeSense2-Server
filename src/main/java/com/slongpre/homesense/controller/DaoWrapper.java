@@ -18,7 +18,7 @@ public class DaoWrapper {
     static {
         try {
             Configuration configuration = new Configuration();
-            configuration.configure("/com/slongpre/homesense/controller/hibernate.cfg.xml");
+            configuration.configure("/hibernate.cfg.xml");
 
             ourSessionFactory = configuration.buildSessionFactory();
         } catch (Throwable ex) {
