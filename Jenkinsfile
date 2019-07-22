@@ -32,5 +32,10 @@ pipeline {
         archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
+    stage('Deploying') {
+      steps {
+        sh 'pwd'
+      }
+    }
   }
 }
