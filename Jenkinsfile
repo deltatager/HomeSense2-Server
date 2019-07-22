@@ -8,8 +8,20 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean package' 
+                sh 'mvn -B -DskipTests clean package'
             }
         }
+        stage('Unit Tests'){
+              steps{
+                script{
+                    sh 'mvn --batch-mode resources:testResources compiler:testCompile surefire:test'
+                 }
+               }
+              post{
+                always{
+                  junit testResults: 'target/surefire-reports/*.xml'
+                 }
+               }
+             }
     }
 }
