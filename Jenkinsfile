@@ -29,7 +29,7 @@ pipeline {
     }
     stage('Archiving') {
       steps {
-        archiveArtifacts '*.war, *.jar'
+        archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
   }
