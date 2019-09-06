@@ -33,9 +33,12 @@ pipeline {
       }
     }
     stage('Deploying') {
+      agent {
+        label 'master'
+      }
       steps {
-        sh 'apk add openssh-client'
-        sh '/usr/bin/scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps'
+        sh 'pwd'
+        sh 'whoami'
       }
     }
   }
