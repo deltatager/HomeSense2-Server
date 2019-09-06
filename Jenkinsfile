@@ -31,7 +31,7 @@ pipeline {
     }
     stage('Deploying') {
       steps {
-        sh 'apk'
+        sh 'ls -la'
       }
     }
   }
