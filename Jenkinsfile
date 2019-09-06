@@ -33,11 +33,8 @@ pipeline {
       }
     }
     stage('Deploying') {
-      agent {
-        label 'master'
-      }
       steps {
-        sh 'whoami'
+        sh 'uname -a'
       }
     }
   }
