@@ -35,6 +35,7 @@ pipeline {
     stage('Deploying') {
       steps {
         sh 'pwd'
+        sh 'whoami'
       }
     }
   }
