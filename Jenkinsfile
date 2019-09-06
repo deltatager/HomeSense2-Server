@@ -10,7 +10,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'mvn -B -DskipTests clean package'
-        sh 'uname -a'
+        sh 'apk'
       }
     }
     stage('Unit Tests') {
@@ -35,7 +35,7 @@ pipeline {
     }
     stage('Deploying') {
       steps {
-        sh 'uname -a'
+        sh 'apk'
       }
     }
   }
