@@ -33,6 +33,7 @@ pipeline {
       }
     }
     stage('Deploying') {
+      agent any
       steps {
         sh 'apk'
       }
