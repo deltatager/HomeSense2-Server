@@ -10,6 +10,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'mvn -B -DskipTests clean package'
+        sh 'uname -a'
       }
     }
     stage('Unit Tests') {
