@@ -34,6 +34,7 @@ pipeline {
     }
     stage('Deploying') {
       steps {
+        sh 'apk add openssh-client'
         sh '/usr/bin/scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps'
       }
     }
