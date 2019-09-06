@@ -37,7 +37,6 @@ pipeline {
         label 'master'
       }
       steps {
-        sh 'pwd'
         sh 'whoami'
       }
     }
