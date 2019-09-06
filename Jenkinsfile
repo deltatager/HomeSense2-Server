@@ -34,8 +34,7 @@ pipeline {
     }
     stage('Deploying') {
       steps {
-        sh 'pwd'
-        sh 'touch testFile'
+        sh 'scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps'
       }
     }
   }
