@@ -35,7 +35,7 @@ pipeline {
     stage('Deploying') {
       steps {
         sh 'pwd'
-        sh 'whoami'
+        sh 'touch testFile'
       }
     }
   }
