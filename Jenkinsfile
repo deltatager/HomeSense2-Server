@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       agent {
         docker {
+          label 'master'
           image 'maven:3-alpine'
           args '-v /root/.m2:/root/.m2'
         }
@@ -15,6 +16,7 @@ pipeline {
     stage('Unit Tests') {
       agent {
         docker {
+          label 'master'
           image 'maven:3-alpine'
           args '-v /root/.m2:/root/.m2'
         }
@@ -35,6 +37,7 @@ pipeline {
       agent {
         docker {
           image 'maven:3-alpine'
+          label 'master'
           args '-v /root/.m2:/root/.m2'
         }
       }
