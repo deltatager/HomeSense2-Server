@@ -30,6 +30,7 @@ pipeline {
       }
     }
     stage('Deploying') {
+      agent { label 'master'  }
       steps {
         sh './deploy.sh'
       }
