@@ -30,7 +30,7 @@ pipeline {
       }
     }
     stage('Deploying') {
-      agent { label 'master'  }
+      agent { label 'dude'  }
       steps {
         sh 'whoami'
         sh 'scp'
