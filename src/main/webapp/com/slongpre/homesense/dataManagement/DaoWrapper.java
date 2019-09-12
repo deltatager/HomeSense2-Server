@@ -1,4 +1,4 @@
-package com.slongpre.homesense.controller;
+package com.slongpre.homesense.dataManagement;
 
 import com.slongpre.homesense.devices.Device;
 import org.hibernate.HibernateException;

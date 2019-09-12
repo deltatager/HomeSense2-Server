@@ -1,4 +1,4 @@
-package com.slongpre.homesense.controller;
+package com.slongpre.homesense.settings;
 
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerResponseContext;

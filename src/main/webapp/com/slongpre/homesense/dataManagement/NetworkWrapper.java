@@ -1,4 +1,4 @@
-package com.slongpre.homesense.controller;
+package com.slongpre.homesense.dataManagement;
 
 import javax.json.JsonObject;
 import java.io.IOException;

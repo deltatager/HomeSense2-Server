@@ -1,5 +1,7 @@
 package com.slongpre.homesense.controller;
 
+import com.slongpre.homesense.dataManagement.DaoWrapper;
+import com.slongpre.homesense.dataManagement.NetworkWrapper;
 import com.slongpre.homesense.devices.Light;
 
 import javax.ws.rs.*;
@@ -35,6 +37,7 @@ public class LightController {
             nw.startConnection();
             nw.sendMessage(updatedLight.toJson());
             nw.stopConnection();
+            System.out.println();
         } catch (IOException e) {
             System.err.println("You done goofed: " + e.getMessage());
         }
