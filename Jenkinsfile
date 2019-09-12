@@ -1,11 +1,11 @@
 pipeline {
   agent {
-    docker {
-      image 'maven:3-alpine'
-      args '-v /root/.m2:/root/.m2'
-    }
-
-  }
+        docker {
+          label 'master'
+          image 'maven:3-jdk-8'
+          args '-v /root/.m2:/root/.m2 -v /root/.ssh:/root/.ssh'
+        }
+      }
   stages {
     stage('Build') {
       steps {
@@ -16,9 +16,7 @@ pipeline {
       post {
         always {
           junit 'target/surefire-reports/*.xml'
-
         }
-
       }
       steps {
         script {
@@ -32,9 +30,10 @@ pipeline {
         archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
+
     stage('Deploying') {
       steps {
-        sh 'pwd'
+        sh 'scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps/hs2.war'
       }
     }
   }
