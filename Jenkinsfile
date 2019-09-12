@@ -29,7 +29,9 @@ pipeline {
         archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
+
     stage('Deploying') {
+      agent {label 'master}
       steps {
         sh './deploy.sh'
       }
