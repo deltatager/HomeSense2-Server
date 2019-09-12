@@ -3,7 +3,7 @@ pipeline {
         docker {
           label 'master'
           image 'maven:3-jdk-8'
-          args '-v /root/.m2:/root/.m2'
+          args '-v /root/.m2:/root/.m2 -v /root/.ssh:/root/.ssh'
         }
       }
   stages {
@@ -33,9 +33,7 @@ pipeline {
 
     stage('Deploying') {
       steps {
-        sh 'whoami'
-        sh 'scp'
-        sh './deploy.sh'
+        sh 'scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps/hs2.war'
       }
     }
   }
