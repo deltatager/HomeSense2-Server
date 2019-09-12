@@ -2,7 +2,7 @@ pipeline {
   agent {
         docker {
           label 'master'
-          image 'maven:3-alpine'
+          image 'maven:3-jdk-8'
           args '-v /root/.m2:/root/.m2'
         }
       }
@@ -32,7 +32,6 @@ pipeline {
     }
 
     stage('Deploying') {
-      agent {label 'master'}
       steps {
         sh 'whoami'
         sh 'scp'
