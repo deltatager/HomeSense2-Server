@@ -47,16 +47,7 @@ pipeline {
     }
 
     stage('Deploying') {
-<<<<<<< HEAD
-      agent {label 'master}
-=======
-      agent {
-        node {
-        label 'dude'
-        customWorkspace '/tmp/tmp2'
-         }
-      }
->>>>>>> master
+      agent {label 'master'}
       steps {
         sh 'whoami'
         sh 'scp'
