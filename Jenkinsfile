@@ -1,17 +1,26 @@
 pipeline {
-  agent {
+  agent none
+  stages {
+    stage('Build') {
+      agent {
         docker {
+          label 'master'
           image 'maven:3-alpine'
           args '-v /root/.m2:/root/.m2'
         }
       }
-  stages {
-    stage('Build') {
       steps {
         sh 'mvn -B -DskipTests clean package'
       }
     }
     stage('Unit Tests') {
+      agent {
+        docker {
+          label 'master'
+          image 'maven:3-alpine'
+          args '-v /root/.m2:/root/.m2'
+        }
+      }
       post {
         always {
           junit 'target/surefire-reports/*.xml'
@@ -25,14 +34,32 @@ pipeline {
       }
     }
     stage('Archiving') {
+      agent {
+        docker {
+          image 'maven:3-alpine'
+          label 'master'
+          args '-v /root/.m2:/root/.m2'
+        }
+      }
       steps {
         archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
 
     stage('Deploying') {
+<<<<<<< HEAD
       agent {label 'master}
+=======
+      agent {
+        node {
+        label 'dude'
+        customWorkspace '/tmp/tmp2'
+         }
+      }
+>>>>>>> master
       steps {
+        sh 'whoami'
+        sh 'scp'
         sh './deploy.sh'
       }
     }
