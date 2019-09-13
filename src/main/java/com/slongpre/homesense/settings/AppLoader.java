@@ -6,12 +6,7 @@ import com.slongpre.homesense.controller.PwmLightController;
 import com.slongpre.homesense.controller.RgbLightController;
 
 import javax.ws.rs.ApplicationPath;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
 import javax.ws.rs.core.Application;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -25,15 +20,5 @@ public class AppLoader extends Application{
         h.add(RgbLightController.class);
         h.add(PwmLightController.class);
         return h;
-    }
-
-    @Path("/")
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public Response index() {
-        return Response
-                .status(Response.Status.OK)
-                .entity("App running!")
-                .build();
     }
 }
