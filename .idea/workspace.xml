@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="smt">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HomeSense2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/HomeSense2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeSense2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HomeSense2.iml" afterDir="false" />
+    <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,10 +20,49 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homesense-react-gui/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homesense-react-gui/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/homesense-react-gui" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="76cdb76f-ca24-4200-9815-4d6e9cbc0805" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -63,6 +101,24 @@
               <item name="HomeSense2" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeSense2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HomeSense2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeSense2" type="462c0819:PsiDirectoryNode" />
+              <item name="homesense-react-gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeSense2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeSense2" type="462c0819:PsiDirectoryNode" />
+              <item name="homesense-react-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeSense2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeSense2" type="462c0819:PsiDirectoryNode" />
+              <item name="homesense-react-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,9 +152,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/homesense-react-gui/homesense-react-gui.iml" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/homesense-react-gui/node_modules/react-scripts" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="C:\Users\simon\IdeaProjects\HomeSense2\homesense-react-gui\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,6 +171,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.Changing google.com language">
+    <configuration name="Changing google.com language" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/homesense-react-gui/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/homesense-react-gui" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" />
+      <test-names>
+        <test-name value="Changing google.com language" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should click on navbar button to display a drawer" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/homesense-react-gui/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/homesense-react-gui" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" />
+      <test-names>
+        <test-name value="should click on navbar button to display a drawer" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Changing google.com language" />
+        <item itemvalue="Jest.should click on navbar button to display a drawer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,12 +215,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568424196169</updated>
-      <workItem from="1568424200731" duration="308000" />
+      <workItem from="1568424200731" duration="1342000" />
+      <workItem from="1568474019290" duration="1805000" />
+      <workItem from="1568516727408" duration="4225000" />
     </task>
+    <task id="LOCAL-00001" summary="smt">
+      <created>1568424546220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568424546220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 49m 11s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 49m 58s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 52m 31s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 56m 38s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 57m 10s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 59m 20s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.15 at 00h 04m 05s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.15 at 00h 06m 54s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.15 at 00h 07m 23s.xml">
+      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Changing_google_com_language - 2019.09.15 at 00h 12m 03s.xml">
+      <configuration name="Changing google.com language" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419000" />
+    <option name="totallyTimeSpent" value="7483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -140,8 +275,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5190959" visible="true" weight="0.16500995" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5190959" visible="true" weight="0.16739562" />
       <window_info id="Structure" order="1" sideWeight="0.48090413" side_tool="true" weight="0.1638171" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.5023256" side_tool="true" weight="0.25367793" />
@@ -153,19 +289,19 @@
       <window_info id="npm" order="9" sideWeight="0.48090413" side_tool="true" weight="0.1638171" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878347" weight="0.2917647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974155" visible="true" weight="0.2915043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30787218" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32969603" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4998012" weight="0.3289166" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49860835" weight="0.3289166" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500994" side_tool="true" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025845" side_tool="true" visible="true" weight="0.2915043" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289166" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32969603" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" weight="0.32969603" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49900597" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49821073" weight="0.3289166" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.21590023" />
       <window_info anchor="bottom" id="TypeScript" order="16" weight="0.32969603" />
       <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.32969603" />
@@ -187,6 +323,30 @@
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -202,26 +362,115 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="smt" />
+    <option name="LAST_COMMIT_MESSAGE" value="smt" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeSense2.iml">
+    <entry file="file://$PROJECT_DIR$/HomeSense2.iml" />
+    <entry file="file://$PROJECT_DIR$/.idea/HomeSense2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/homesense-react-gui/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/HomeSense2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/homesense-react-gui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homesense-react-gui/node_modules/selenium-webdriver/lib/by.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>homesense-react-gui</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
