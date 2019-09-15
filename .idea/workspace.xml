@@ -4,7 +4,7 @@
     <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homesense-react-gui" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,24 +29,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homesense-react-gui/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -64,6 +59,7 @@
       <list>
         <option value="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" />
         <option value="$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js" />
+        <option value="$PROJECT_DIR$/homesense-react-gui/package.json" />
       </list>
     </option>
   </component>
@@ -97,6 +93,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HomeSense2" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HomeSense2" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="HomeSense2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\simon\IdeaProjects\HomeSense2" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,28 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="HomeSense2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\simon\IdeaProjects\HomeSense2" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HomeSense2" type="58d84e3e:PackageViewProjectNode" />
-              <item name="HomeSense2" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,6 +152,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/homesense-react-gui/homesense-react-gui.iml" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/homesense-react-gui/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -201,8 +198,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/homesense-react-gui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Jest.Changing google.com language" />
         <item itemvalue="Jest.should click on navbar button to display a drawer" />
       </list>
@@ -221,7 +229,8 @@
       <workItem from="1568424200731" duration="1342000" />
       <workItem from="1568474019290" duration="1805000" />
       <workItem from="1568516727408" duration="4459000" />
-      <workItem from="1568521557377" duration="37000" />
+      <workItem from="1568521557377" duration="493000" />
+      <workItem from="1568558955819" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="smt">
       <created>1568424546220</created>
@@ -244,19 +253,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568521162787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Quitting driver after test to prevent hanging">
+      <created>1568521625975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568521625975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed test">
+      <created>1568522029527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568522029527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 49m 11s.xml">
-      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 49m 58s.xml">
-      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 52m 31s.xml">
-      <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="should_click_on_navbar_button_to_display_a_drawer - 2019.09.14 at 23h 56m 38s.xml">
       <configuration name="should click on navbar button to display a drawer" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -278,9 +292,18 @@
     <history-entry file="Changing_google_com_language - 2019.09.15 at 00h 12m 03s.xml">
       <configuration name="Changing google.com language" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="Changing_google_com_language - 2019.09.15 at 00h 27m 40s.xml">
+      <configuration name="Changing google.com language" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Changing_google_com_language - 2019.09.15 at 00h 30m 26s.xml">
+      <configuration name="Changing google.com language" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Changing_google_com_language - 2019.09.15 at 00h 33m 33s.xml">
+      <configuration name="Changing google.com language" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7754000" />
+    <option name="totallyTimeSpent" value="8535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,7 +318,7 @@
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5190959" visible="true" weight="0.16858847" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5181518" visible="true" weight="0.16978131" />
       <window_info id="Structure" order="1" sideWeight="0.48090413" side_tool="true" weight="0.1638171" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.5023256" side_tool="true" weight="0.25367793" />
@@ -304,10 +327,10 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" sideWeight="0.47969264" side_tool="true" weight="0.23856859" />
-      <window_info id="npm" order="9" sideWeight="0.48090413" side_tool="true" weight="0.1638171" />
+      <window_info id="npm" order="9" sideWeight="0.48184818" side_tool="true" visible="true" weight="0.16978131" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974155" weight="0.2915043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4970179" visible="true" weight="0.2915043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30787218" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,11 +338,11 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32969603" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49860835" weight="0.3289166" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025845" side_tool="true" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029821" side_tool="true" weight="0.2915043" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289166" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4998012" weight="0.32969603" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" weight="0.32969603" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4974155" visible="true" weight="0.3289166" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4974155" weight="0.3289166" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.21590023" />
       <window_info anchor="bottom" id="TypeScript" order="16" weight="0.32969603" />
       <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.32969603" />
@@ -384,7 +407,9 @@
     <MESSAGE value="smt" />
     <MESSAGE value="Modified Seleniun-Webdriver to use remote Selenium instance" />
     <MESSAGE value="Removed duplicate agent from Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed duplicate agent from Jenkinsfile" />
+    <MESSAGE value="Quitting driver after test to prevent hanging" />
+    <MESSAGE value="Fixed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HomeSense2.iml" />
@@ -398,6 +423,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/homesense-react-gui/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -405,20 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/homesense-react-gui/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homesense-react-gui/src/__tests__/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
         </state>
       </provider>
     </entry>
