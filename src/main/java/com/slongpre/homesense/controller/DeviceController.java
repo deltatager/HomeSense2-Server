@@ -46,7 +46,7 @@ public class DeviceController {
     @Path("/supported")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getSupportedTypes() {
-        List<ClassLoader> classLoadersList = new LinkedList<ClassLoader>();
+        List<ClassLoader> classLoadersList = new LinkedList<>();
         classLoadersList.add(ClasspathHelper.contextClassLoader());
         classLoadersList.add(ClasspathHelper.staticClassLoader());
 
@@ -74,10 +74,11 @@ public class DeviceController {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addNewDevice(Device newDevice) {
 
+        Device returned = DaoWrapper.update(newDevice);
 
         return Response
                 .status(Response.Status.CREATED)
-                .entity("")
+                .entity(returned.toJson().toString())
                 .build();
     }
 }
