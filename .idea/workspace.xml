@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="">
+    <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="tryng some copy-pasted stuff">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homesense-react-gui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homesense-react-gui/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +126,7 @@
       <workItem from="1568516727408" duration="4459000" />
       <workItem from="1568521557377" duration="493000" />
       <workItem from="1568558955819" duration="325000" />
-      <workItem from="1568638969245" duration="2518000" />
+      <workItem from="1568638969245" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="smt">
       <created>1568424546220</created>
@@ -181,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568640811196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tryng some copy-pasted stuff">
+      <created>1568641712804</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568641712804</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tryng some copy-pasted stuff">
+      <created>1568641781269</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568641781269</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -224,12 +241,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="smt" />
     <MESSAGE value="Modified Seleniun-Webdriver to use remote Selenium instance" />
     <MESSAGE value="Removed duplicate agent from Jenkinsfile" />
     <MESSAGE value="Quitting driver after test to prevent hanging" />
     <MESSAGE value="Fixed test" />
     <MESSAGE value="added jest-junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="added jest-junit" />
+    <MESSAGE value="tryng some copy-pasted stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="tryng some copy-pasted stuff" />
   </component>
 </project>
