@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6988bab-f14d-441f-8357-96d6f26b3da2" name="Default Changelist" comment="added jest-junit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/homesense-react-gui" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/homesense-react-gui/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -122,7 +123,7 @@
       <workItem from="1568516727408" duration="4459000" />
       <workItem from="1568521557377" duration="493000" />
       <workItem from="1568558955819" duration="325000" />
-      <workItem from="1568638969245" duration="1500000" />
+      <workItem from="1568638969245" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="smt">
       <created>1568424546220</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568639866825</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added jest-junit">
+      <created>1568640550328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568640550328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
