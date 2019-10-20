@@ -50,7 +50,7 @@ public class DaoWrapper {
         try {
             final Query query = session.createQuery("from " + type);
             for (Object o : query.list())
-                builder.add(((Device) o).toJson().toString());
+                builder.add(((Device) o).toJson());
         } finally {
             session.close();
         }

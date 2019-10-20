@@ -69,7 +69,7 @@ public class DeviceController {
                 .build();
     }
 
-    @PUT
+    @POST
     @Path("/create")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addNewDevice(Device newDevice) {
