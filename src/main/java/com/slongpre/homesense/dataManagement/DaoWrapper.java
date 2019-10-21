@@ -26,33 +26,27 @@ public class DaoWrapper {
         }
     }
 
-    public static Session getSession() throws HibernateException {
+    private static Session getSession() throws HibernateException {
         return ourSessionFactory.openSession();
 
     }
 
-    public static boolean isValidId(Integer id) {
+    public static boolean isInvalidId(Integer id) {
         final Device result;
-        final Session session = getSession();
-        try {
+        try (Session session = getSession()) {
             final Query query = session.createQuery("from Device where id=" + id);
             result = (Device) query.uniqueResult();
-        } finally {
-            session.close();
         }
-        return result != null;
+        return result == null;
     }
 
     public static String getAllDevices(String type) {
         JsonArrayBuilder builder = Json.createArrayBuilder();
-        final Session session = getSession();
 
-        try {
+        try (Session session = getSession()) {
             final Query query = session.createQuery("from " + type);
             for (Object o : query.list())
                 builder.add(((Device) o).toJson());
-        } finally {
-            session.close();
         }
         return builder.build().toString();
     }
@@ -61,41 +55,22 @@ public class DaoWrapper {
         return getAllDevices("Device");
     }
 
-    public static Object getAllLights() {
-        JsonArrayBuilder builder = Json.createArrayBuilder();
-        final Session session = getSession();
-        try {
-            final Query query = session.createQuery("from Light");
-            for (Object o : query.list())
-                builder.add(((Device) o).toJson().toString());
-        } finally {
-            session.close();
-        }
-        return builder.build().toString();
-    }
-
     public static String getDeviceById(Integer id) {
-        if (!isValidId(id))
+        if (isInvalidId(id))
             return "";
 
         final String result;
-        final Session session = getSession();
-        try {
-            result = session.load(Device.class, new Integer(id)).toJson().toString().toString();
-        } finally {
-            session.close();
+        try (Session session = getSession()) {
+            result = session.load(Device.class, id).toJson().toString();
         }
         return result;
     }
 
     public static Device update(Device device) {
-        final Session session = getSession();
-        try {
+        try (Session session = getSession()) {
             Transaction t = session.beginTransaction();
             device = (Device) session.merge(device);
             t.commit();
-        } finally {
-            session.close();
         }
         return device;
     }

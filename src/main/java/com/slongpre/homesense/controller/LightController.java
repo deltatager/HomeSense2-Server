@@ -26,7 +26,7 @@ public class LightController {
     @Consumes("application/json")
     @Produces(MediaType.TEXT_PLAIN)
     public Response setDeviceMode(@PathParam("id") Integer id, Light light) {
-        if (!DaoWrapper.isValidId(id))
+        if (DaoWrapper.isInvalidId(id))
             return Response
                     .status(Response.Status.NOT_FOUND)
                     .entity("")
