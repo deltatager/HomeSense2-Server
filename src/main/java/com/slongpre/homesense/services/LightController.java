@@ -1,7 +1,7 @@
 package com.slongpre.homesense.services;
 
-import com.slongpre.homesense.dataManagement.DaoWrapper;
-import com.slongpre.homesense.dataManagement.NetworkWrapper;
+import com.slongpre.homesense.wrappers.DaoWrapper;
+import com.slongpre.homesense.wrappers.NetworkWrapper;
 import com.slongpre.homesense.entities.Light;
 
 import javax.ws.rs.*;

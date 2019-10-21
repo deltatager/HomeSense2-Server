@@ -1,6 +1,6 @@
 package com.slongpre.homesense.services;
 
-import com.slongpre.homesense.dataManagement.DaoWrapper;
+import com.slongpre.homesense.wrappers.DaoWrapper;
 import com.slongpre.homesense.entities.Device;
 import org.reflections.Reflections;
 import org.reflections.scanners.ResourcesScanner;
@@ -74,7 +74,7 @@ public class DeviceController {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addNewDevice(Device newDevice) {
 
-        Device returned = DaoWrapper.update(newDevice);
+        Device returned = (Device) DaoWrapper.update(newDevice);
 
         return Response
                 .status(Response.Status.CREATED)

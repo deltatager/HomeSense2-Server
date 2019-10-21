@@ -5,11 +5,12 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
  http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
     <servlet>
-        <display-name>Restful Web Application</display-name>
-        <servlet-name>com.slongpre.homesense.controller.AppLoader</servlet-name>
-        <init-param>
-            <param-name>javax.ws.rs.Application</param-name>
-            <param-value>com.slongpre.homesense.settings.AppLoader</param-value>
-        </init-param>
+        <display-name>HomeSense2</display-name>
+        <servlet-name>hs2</servlet-name>
+        <servlet-class>com.slongpre.homesense.settings.AppLoader</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>hs2</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 </web-app>

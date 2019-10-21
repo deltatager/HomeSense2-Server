@@ -1,4 +1,4 @@
-package com.slongpre.homesense.dataManagement;
+package com.slongpre.homesense.wrappers;
 
 import com.slongpre.homesense.entities.Device;
 import org.hibernate.HibernateException;
@@ -66,14 +66,15 @@ public class DaoWrapper {
         return result;
     }
 
-    public static Device update(Device device) {
+    public static Object update(Object o) {
         try (Session session = getSession()) {
             Transaction t = session.beginTransaction();
-            device = (Device) session.merge(device);
+            o = (Device) session.merge(o);
             t.commit();
         }
-        return device;
+        return o;
     }
+
 
 
 }

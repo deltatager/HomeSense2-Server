@@ -1,12 +1,14 @@
 package com.slongpre.homesense.entities;
 
+import com.slongpre.homesense.wrappers.Jsonable;
+
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public class Device {
+public class Device implements Jsonable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

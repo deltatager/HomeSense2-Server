@@ -1,4 +1,4 @@
-package com.slongpre.homesense.dataManagement;
+package com.slongpre.homesense.wrappers;
 
 import javax.json.JsonObject;
 import java.io.IOException;
