@@ -1,7 +1,7 @@
-package com.slongpre.homesense.controller;
+package com.slongpre.homesense.services;
 
 import com.slongpre.homesense.dataManagement.DaoWrapper;
-import com.slongpre.homesense.devices.Device;
+import com.slongpre.homesense.entities.Device;
 import org.reflections.Reflections;
 import org.reflections.scanners.ResourcesScanner;
 import org.reflections.scanners.SubTypesScanner;

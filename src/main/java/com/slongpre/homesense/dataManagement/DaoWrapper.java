@@ -1,6 +1,6 @@
 package com.slongpre.homesense.dataManagement;
 
-import com.slongpre.homesense.devices.Device;
+import com.slongpre.homesense.entities.Device;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

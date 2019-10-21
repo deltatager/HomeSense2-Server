@@ -1,9 +1,9 @@
 package com.slongpre.homesense.settings;
 
-import com.slongpre.homesense.controller.DeviceController;
-import com.slongpre.homesense.controller.LightController;
-import com.slongpre.homesense.controller.PwmLightController;
-import com.slongpre.homesense.controller.RgbLightController;
+import com.slongpre.homesense.services.DeviceController;
+import com.slongpre.homesense.services.LightController;
+import com.slongpre.homesense.services.PwmLightController;
+import com.slongpre.homesense.services.RgbLightController;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

@@ -1,4 +1,4 @@
-package com.slongpre.homesense.devices;
+package com.slongpre.homesense.entities;
 
 import javax.json.Json;
 import javax.json.JsonObject;

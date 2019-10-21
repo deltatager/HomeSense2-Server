@@ -1,4 +1,4 @@
-package com.slongpre.homesense.devices;
+package com.slongpre.homesense.entities;
 
 import javax.json.Json;
 import javax.json.JsonObject;
@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class Device {
+public class Device {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

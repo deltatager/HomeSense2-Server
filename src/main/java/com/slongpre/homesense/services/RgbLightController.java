@@ -1,8 +1,8 @@
-package com.slongpre.homesense.controller;
+package com.slongpre.homesense.services;
 
 import com.slongpre.homesense.dataManagement.DaoWrapper;
 import com.slongpre.homesense.dataManagement.NetworkWrapper;
-import com.slongpre.homesense.devices.RgbLight;
+import com.slongpre.homesense.entities.RgbLight;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

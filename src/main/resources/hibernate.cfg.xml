@@ -18,10 +18,10 @@
         <property name="show_sql">false</property>
 
 
-        <mapping class="com.slongpre.homesense.devices.Device"/>
-        <mapping class="com.slongpre.homesense.devices.Light"/>
-        <mapping class="com.slongpre.homesense.devices.PwmLight"/>
-        <mapping class="com.slongpre.homesense.devices.RgbLight"/>
+        <mapping class="com.slongpre.homesense.entities.Device"/>
+        <mapping class="com.slongpre.homesense.entities.Light"/>
+        <mapping class="com.slongpre.homesense.entities.PwmLight"/>
+        <mapping class="com.slongpre.homesense.entities.RgbLight"/>
 
 
     </session-factory>
