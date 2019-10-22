@@ -30,11 +30,5 @@ pipeline {
         archiveArtifacts 'target/*.war, target/*.jar'
       }
     }
-
-    stage('Deploying') {
-      steps {
-        sh 'scp target/*.war pi@pi1.deltanet.int:/opt/tomee8/webapps/hs2.war'
-      }
-    }
   }
 }
