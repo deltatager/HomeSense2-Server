@@ -1,9 +1,7 @@
 package com.slongpre.homesense.settings;
 
-import com.slongpre.homesense.services.DeviceController;
-import com.slongpre.homesense.services.LightController;
-import com.slongpre.homesense.services.PwmLightController;
-import com.slongpre.homesense.services.RgbLightController;
+import com.slongpre.homesense.entities.Device;
+import com.slongpre.homesense.services.*;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -19,6 +17,7 @@ public class AppLoader extends Application{
         h.add(LightController.class);
         h.add(RgbLightController.class);
         h.add(PwmLightController.class);
+        h.add(GenericService.class);
         return h;
     }
 }
